@@ -35,7 +35,7 @@ namespace DS18B20 {
   }
 
   //% block="Probe connected to pin %arg_pin"
-  export function setPin(arg_pin: number): void {
+  export function setPin(arg_pin: pin): void {
     pin_arg = arg_pin;
   }
 
@@ -51,6 +51,6 @@ namespace DS18B20 {
   export function TemperatureNumber(): number {
     // Fake function for simulator
 
-    return (Temperature(pin_arg) / 100)
+    return Temperature(pin_arg)
   }
 }
