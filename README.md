@@ -24,8 +24,8 @@ DS18B20.setPin(DS18B20.pin.pin1)
 basic.forever(function () {
     serial.writeLine("" + DS18B20.TemperatureNumber())
 })
-
 ```
+![image](https://github.com/BLstem/pxt-WaterTemp/blob/master/image/example.png)<br>
 
 ## License
 
