@@ -35,6 +35,7 @@ namespace DS18B20 {
   }
 
   //% block="Probe connected to pin %arg_pin"
+  //% arg_pin.fieldEditor="gridpicker" arg_pin.fieldOptions.columns=4
   export function setPin(arg_pin: pin): void {
     pin_arg = arg_pin;
   }
