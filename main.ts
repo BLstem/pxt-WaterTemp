@@ -40,14 +40,13 @@ namespace DS18B20 {
   }
 
   //% shim=DS18B20::Temperature
-  export function Temperature(p: number): number {
+  function Temperature(p: number): number {
     // Fake function for simulator
     return 0
   }
 
   //% weight=10 blockId="Temperature_number" 
-  //% block="|%p| Temperature_number "
-  //% p.fieldEditor="gridpicker" p.fieldOptions.columns=4
+  //% block="Temperature"
   export function TemperatureNumber(): number {
     // Fake function for simulator
 
