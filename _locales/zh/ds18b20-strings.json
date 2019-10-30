@@ -1,5 +1,5 @@
 {
-  "DS18B20.setPin|block": "|%p|水溫感應器連接引腳",
+  "DS18B20.setPin|block": "|%arg_pin|水溫感應器連接引腳",
   "DS18B20.TemperatureNumber|block": "讀取溫度",
   "DS18B20.pin.pin0|block": "引腳0",
   "DS18B20.pin.pin1|block": "引腳1",
