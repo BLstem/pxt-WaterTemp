@@ -34,19 +34,20 @@ namespace DS18B20 {
     pin16 = 16
   }
 
-  //% block="Probe connected to pin %arg_pin"
+  //% weight=11 
+  //% block = "Probe connected to pin %arg_pin"
   //% arg_pin.fieldEditor="gridpicker" arg_pin.fieldOptions.columns=4
   export function setPin(arg_pin: pin): void {
     pin_arg = arg_pin;
   }
 
   //% shim=DS18B20::Temperature
-  function Temperature(p: number): number {
+  export function Temperature(p: number): number {
     // Fake function for simulator
     return 0
   }
 
-  //% weight=10 blockId="Temperature_number" 
+  //% weight=10
   //% block="Temperature"
   export function TemperatureNumber(): number {
     // Fake function for simulator
