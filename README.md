@@ -12,10 +12,10 @@ DS18B20 module, support single bus control, and read temperature.
 
 ## Blocks
 ### Set up pin connection. 
-![image](https://github.com/DFRobot/pxt-ds18b20/blob/master/image/pin.png)<br>
+![image](https://github.com/BLstem/pxt-WaterTemp/blob/master/image/pin.png)<br>
 
 ### Read temperature, return a number, the value is amplifies up to 100 times.
-![image](https://github.com/DFRobot/pxt-ds18b20/blob/master/image/number.png)<br>
+![image](https://github.com/BLstem/pxt-WaterTemp/blob/master/image/number.png)<br>
 
 ## Example
 Example for JavaScript
