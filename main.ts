@@ -2,7 +2,7 @@
 namespace DS18B20 {
   /**
    * Reads the temperature from the one-wire temperature sensor.
-   * Returns a 4 digit number. value should be divided by 100 to get 
+   * Returns a 3 digit number. value should be divided by 10 to get 
    *temperature in hundreths of a degree centigrade. 
    * block="Temperature(C)"
    */
@@ -52,6 +52,6 @@ namespace DS18B20 {
   export function TemperatureNumber(): number {
     // Fake function for simulator
 
-    return Temperature(pin_arg)
+    return Math.round(Temperature(pin_arg) / 10);
   }
 }
